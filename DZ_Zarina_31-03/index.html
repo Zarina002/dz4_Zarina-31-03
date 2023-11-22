@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif
+    }
+
+    .card {
+        width: 200px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: #ecf0f1;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .peoples {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .peoples img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease-in-out;
+        border: 2px solid transparent;
+    }
+
+    .peoples img:hover {
+        transform: scale(1.1);
+        border-color: #5bdede;
+    }
+
+
+    .card:nth-child(-n+3) {
+        border: 2px solid #2ecc71;
+    }
+
+
+    .card:nth-child(n+4) {
+        border: 2px solid #e74c3c;
+    }
+</style>
+</head>
+<body>
+
+<div class="peoples"></div>
+<script src="main.js"></script>
+</body>
+</html>

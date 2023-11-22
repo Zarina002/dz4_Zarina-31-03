@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Nezuko",
+        "age": 15,
+        "image": "images/nezuko.jpg"
+    },
+    {
+        "name": "Tanjiro",
+        "age": 16,
+        "image": "images/tanjiro.jpg"
+    },
+    {
+        "name": "Tamioka",
+        "age": 19,
+        "image": "images/tamioka.jpg"
+    },
+    {
+        "name": "Daki",
+        "age": 13,
+        "image": "images/daki.jpg"
+    },
+    {
+        "name": "Muzan",
+        "age": 20,
+        "image": "images/muzan.jpg"
+    },
+    {
+        "name": "Akaza",
+        "age": 11,
+        "image": "images/akaza.jpg"
+    }
+]
